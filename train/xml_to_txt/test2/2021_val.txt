@@ -1,0 +1,5 @@
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000004.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000008.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000012.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000016.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000020.jpg

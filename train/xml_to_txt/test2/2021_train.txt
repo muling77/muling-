@@ -1,0 +1,15 @@
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000001.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000002.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000003.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000005.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000006.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000007.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000009.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000010.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000011.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000013.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000014.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000015.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000017.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000018.jpg
+C:\Users\Maggie\darknet\build\darknet\x64\train\test2\test2/VOCdevkit/VOC2021/JPEGImages/0000000019.jpg
