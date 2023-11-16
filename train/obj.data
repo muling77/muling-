@@ -1,5 +1,0 @@
-classes = 1
-train = D:\darknet\build\darknet\x64\train\2021_train.txt
-valid = D:\darknet\build\darknet\x64\train\2021_val.txt
-names = D:\darknet\build\darknet\x64\train\obj.names
-backup = D:\darknet\build\darknet\x64\train\backup
