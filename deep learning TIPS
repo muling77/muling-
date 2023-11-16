@@ -1,0 +1,31 @@
+train資料夾裡面要準備(修改)的文件：
+(1) VOCdevkit底下放資料
+    Annotations --> img01.xml (標註結果)
+    ImageSets --> Main/val.txt  Main/train.txt (cmd執行python gen_train_val.py)或(執行'訓練測試集分配') #gen_train_val.py資料打散測試集較多 優先使用
+    JPEGImages --> 原圖
+    labels --> img01.txt (yolo模式的標註結果)
+  
+(2) 新增2021_train.txt 2021_val.txt (cmd執行python voc_label.py)
+  
+(3) object.data 設置 (首次設定完路徑之後只要注意classes)
+    classes = 1
+    train = D:\darknet\build\darknet\x64\train\2021_train.txt
+    valid = D:\darknet\build\darknet\x64\train\2021_val.txt
+    names = D:\darknet\build\darknet\x64\train\obj.names
+    backup = D:\darknet\build\darknet\x64\train\backup
+(4) object.name 修改 (打classes名稱，一行一個)
+(5) 確認權重&模型檔 (以下是目前有使用的)
+    權重：yolov4.conv.137  yolov4-tiny.conv.29
+    模型：yolov4-tiny-myobj.cfg  yolov4-custom.cfg
+    (5.1) .cfg的準備
+          -> batch=64 , subdivisions=16 考慮電腦效能，如果gpu記憶體爆炸常識(64,64)或(1,1)
+          -> width=608 , height=608 , channels=3 寬高設為32倍數    #不知道為什麼tiny無此限制，但yolov4-custom有
+          -> max_batches = 2000  1個classes設2000，2個設4000......(超過好像也沒關係就訊練比較久)
+          -> !!!重要!!! [yolo]標籤底下，classes設定成自己的類別數量，classes=1                    
+          -> !!!重要!!! [yolo]的上面一個[convolutional]標籤裡面，filters = 3*(classes+5)
+            ex. classes=1 , filters=18
+
+
+看不懂的話就去看寶藏參考資料：
+https://zhuanlan.zhihu.com/p/494058726
+這個版本有各項參數解釋：https://blog.csdn.net/u010881576/article/details/107053328#_2
