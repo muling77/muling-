@@ -18,7 +18,7 @@ train資料夾裡面要準備(修改)的文件：
     權重：yolov4.conv.137  yolov4-tiny.conv.29
     模型：yolov4-tiny-myobj.cfg  yolov4-custom.cfg
     (5.1) .cfg的準備
-          -> batch=64 , subdivisions=16 考慮電腦效能，如果gpu記憶體爆炸嘗試(64,64)或(1,1)
+          -> batch=64 , subdivisions=16 考慮電腦效能，如果gpu記憶體爆炸嘗試(64,64)
           -> width=608 , height=608 , channels=3 寬高設為32倍數    #不知道為什麼tiny無此限制，但yolov4-custom有
           -> max_batches = 2000  1個classes設2000，2個設4000......(超過好像也沒關係就訊練比較久)
              steps=1600,1800 (max_batches的80%和90%)
