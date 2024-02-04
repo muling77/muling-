@@ -1,0 +1,11 @@
+專題用到的影像前處理程式
+位於resize資料夾底下
+
+編譯器：Visual Studio 2019/2022
+語言：Python
+Library：opencv
+
+目錄：
+  1.resize
+  2.rotate
+  3.sharpening_kernel
